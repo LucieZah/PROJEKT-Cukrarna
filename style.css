@@ -31,5 +31,169 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: "Lora", sans-serif;
+}
+
+.section {
+	width: 100%;	
+}
+
+.obsah {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1100px;
+	padding: 30px 0;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu{
+	list-style: none;
+	display: flex;
+	flex-direction: row;	
+}
+
+.menu a {
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #242424	;
+}
+
+a:hover {
+	border-radius: 20px;
+	background-color: #f195b2;
+	color: white;
+}
+
+.hero {
+	background-image: url(./images/cupcake.jpg);
+	background-size: cover;
+
+	font-size: 24px;
+	font-style: italic;
+	color: white;
+	padding: 80px 0;
+}
+
+.hero .obsah {
+	padding-right: 40%;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+	font-style: normal;
+	font-weight: 700;
+	font-family: "Playfair Display", sans-serif;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: "Playfair Display", sans-serif;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+	font-family: "Playfair Display", sans-serif;
+	color: #3e606b;
+}
+
+.vitejte .obsah {
+	display: flex;
+	padding: 80px 0;
+}
+
+.vitejte .popis {
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+.odstavec {
+	padding-bottom: 30px;
+}
+
+.tlacitko_vyrobky {
+	padding: 15px 40px;
+	text-decoration: none;
+	color: white;
+	background-color: #f195b2;
+	border-radius: 30px;
+}
+
+.popis a:hover {
+	background-color: #d2567d;
+}
+
+.vitejte img {
+	border-radius: 5px;
+}
+
+
+.nabidka {
+	display: flex;
+	background-color: #f0f0f0;
+	padding: 80px 0;
+}
+
+.produkty {
+	display: flex;
+	margin: 0 -15px;
+}
+
+.slehackovy,
+.livance,
+.dynovy,
+.buchticka {
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px;
+	width: 25%;
+}
+
+.ramecek_1,
+.ramecek_2,
+.ramecek_3,
+.ramecek_4 {
+	background-color: white;
+	border-radius: 0 0 5px 5px;
+	padding: 0 20px;
+}
+
+.slehackovy img,
+.livance img,
+.dynovy img,
+.buchticka img {
+	border-radius: 5px 5px 0 0;
+}
+
+.pristup .obsah {
+	display: flex;
+	padding: 80px 0;
+}
+
+.pristup .obsah img {
+	border-radius: 5px;
+}
+
+.peceni {
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+}
+
+footer {
+	background-color: #303339;
+	color: white;
+	padding: 30px;
+	text-align: center;
 }
 
